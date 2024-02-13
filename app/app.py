@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Welcome to Devops and CICD Jenkins App created by Surya K as advised by guvi mentors'
+    return 'Welcome to Devops and CICD Jenkins App created Surya K'
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
